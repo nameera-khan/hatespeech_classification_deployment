@@ -10,14 +10,14 @@ st.header("Understanding Model Performance")
 st.markdown("---")
 
 st.markdown("""
-### 🔬 About This Model & Research
+### About This Model & Research
 
 This demo showcases a model trained for hate speech classification across multiple platforms (Twitter, Reddit, Gab) - a task known for its complexity and subjectivity.
 
 **Key Challenges:**
 - Hate speech is highly contextual and platform-specific
 - Models often face precision-recall trade-offs
-- Generalization across diverse online communities remains difficult
+- Generalisation across diverse online communities remains difficult
 
 **Design Approach:**
 This demo is optimized to flag *potential* hate speech for **human review**, prioritizing recall to ensure comprehensive coverage, even if it means some non-harmful content is also flagged.
@@ -27,7 +27,7 @@ In production, this would serve as a first-pass filter, with predictions undergo
 
 ---
 
-### 📊 Research Findings: The Cross-Platform Generalization Challenge
+### Research Findings: The Cross-Platform Generalisation Challenge
 
 Our analysis revealed significant performance variations:
 
