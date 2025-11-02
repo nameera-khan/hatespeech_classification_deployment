@@ -9,7 +9,7 @@ import time
 @st.cache(allow_output_mutation=True)
 def get_model(): 
   tokenizer = tokenizer = AutoTokenizer.from_pretrained("cardiffnlp/twitter-roberta-base-hate-latest")
-  model = AutoModelForSequenceClassification.from_pretrained("decodedplot/hatespeech-roberta")
+  model = AutoModel.from_pretrained("decodedplot/hatespeech-roberta")
   return tokenizer, model
 
 tokenizer,model = get_model()
