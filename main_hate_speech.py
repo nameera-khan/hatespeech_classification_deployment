@@ -20,7 +20,7 @@ This demo showcases a model trained for hate speech classification across multip
 - Generalisation across diverse online communities remains difficult
 
 **Design Approach:**
-This demo is optimized to flag *potential* hate speech for **human review**, prioritizing recall to ensure comprehensive coverage, even if it means some non-harmful content is also flagged.
+This demo is optimized to flag *potential* hate speech for **human review**, prioritising recall to ensure comprehensive coverage, even if it means some non-harmful content is also flagged.
 
 **Real-World Application:**
 In production, this would serve as a first-pass filter, with predictions undergoing human moderator review before any action is taken.
@@ -35,7 +35,7 @@ Our analysis revealed significant performance variations:
 - **Gab-Reddit Combined:** Good performance - Benefits from cross-platform training
 - **Reddit Alone:** Lower performance - Reveals unique linguistic patterns
 
-This highlights why one-size-fits-all content moderation often fails and why platform-specific approaches may be necessary.
+This highlights why one-size-fits-all content moderation often fails with binary classification (hate, no-hate) and why multi-classification approaches may be necessary highlighting nuances in speech.
 """)
 
 
